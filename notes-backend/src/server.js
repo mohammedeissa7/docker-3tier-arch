@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-app.get('/', (req, res) => res.json({ message:'Hello World!'}));
+app.get('/api/notes', (req, res) => res.json({ message:'Hello World!'}));
 
 const port = process.env.PORT;
 

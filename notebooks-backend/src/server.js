@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-app.get('/', (req, res) => res.json({ message:'Hello World!'}));
+app.get('/api/notebooks', (req, res) => res.json({ message:'Hello World!'}));
 
 const port = process.env.PORT;
 
